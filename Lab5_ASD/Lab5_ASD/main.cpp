@@ -16,8 +16,5 @@ int main() {
     tree.OutputTree();
     tree.ReverseTreePassingOutput();
     
-    
-    
-    
     return 0;
 }

@@ -67,8 +67,8 @@
 				21A41F402634AE44006C325D /* main.cpp */,
 				21A41F532634B32E006C325D /* mainFunctions.hpp */,
 				21A41F522634B32E006C325D /* mainFunctions.cpp */,
-				21A41F4E2634AFD1006C325D /* class_BinaryTree.cpp */,
 				21A41F4F2634AFD1006C325D /* class_BinaryTree.hpp */,
+				21A41F4E2634AFD1006C325D /* class_BinaryTree.cpp */,
 				21A41F4A2634AE7C006C325D /* Libs.hpp */,
 			);
 			path = Lab5_ASD;
