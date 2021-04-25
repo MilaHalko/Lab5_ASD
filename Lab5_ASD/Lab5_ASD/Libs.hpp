@@ -2,5 +2,6 @@
 #include <stdio.h>
 #include <iomanip>
 #include <string>
-#include <stack>
+#include <queue>
+#include <vector>
 using namespace std;

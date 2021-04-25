@@ -3,18 +3,21 @@
 #include "mainFunctions.hpp"
 
 int main() {
-    string str = "adbcedafhg";
-    //string str = StringInput();
+
+    string str = StringInput();
     
     BinaryTree tree;
     
     CharsToTree(str, tree);
     tree.OutputTree();
+    tree.ReverseTreePassingOutput();
     
     tree.Check();
     tree.OutputTree();
+    tree.ReverseTreePassingOutput();
     
-    tree.ReverseReading();
+    
+    
     
     return 0;
 }

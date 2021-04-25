@@ -17,13 +17,16 @@ struct Node {
 
 class BinaryTree {
     Node *root;
+    int size;
     void Output(Node*, int, string);
+    void ReverseReading(Node*, queue <char> &);
+    bool alreadyAdded(char, vector<char>);
     
 public:
     BinaryTree();
     void Add(char);
     void Check();
-    void Delete(Node*);
-    void ReverseReading();
+    void Delete(char, Node*);
     void OutputTree();
+    void ReverseTreePassingOutput();
 };

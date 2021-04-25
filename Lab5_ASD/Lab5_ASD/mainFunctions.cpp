@@ -1,7 +1,7 @@
 #include "mainFunctions.hpp"
 
 string StringInput(){
-    string str;
+    string str = "";
     cout << "Write letters: "; cin >> str;
     cout << endl;
     return str;
