@@ -1,3 +1,4 @@
+#pragma once
 #include "Libs.hpp"
 
 struct Node {
@@ -16,11 +17,13 @@ struct Node {
 
 class BinaryTree {
     Node *root;
+    void Output(Node*, int, string);
     
 public:
     BinaryTree();
     void Add(char);
     void Check();
     void Delete(Node*);
-    void ReverseOutput();
+    void ReverseReading();
+    void OutputTree();
 };

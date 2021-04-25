@@ -1,3 +1,6 @@
+#pragma once
 #include "Libs.hpp"
+#include "class_BinaryTree.hpp"
 
-void CharsToTree(string);
+string StringInput();
+void CharsToTree(string, BinaryTree &tree);

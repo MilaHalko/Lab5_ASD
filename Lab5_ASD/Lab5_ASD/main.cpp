@@ -3,15 +3,18 @@
 #include "mainFunctions.hpp"
 
 int main() {
-    string str;
-    cout << "Write letters: "; cin >> str;
+    string str = "adbcedafhg";
+    //string str = StringInput();
     
     BinaryTree tree;
-    CharsToTree(str);
+    
+    CharsToTree(str, tree);
+    tree.OutputTree();
     
     tree.Check();
+    tree.OutputTree();
     
-    tree.ReverseOutput();
+    tree.ReverseReading();
     
     return 0;
 }
