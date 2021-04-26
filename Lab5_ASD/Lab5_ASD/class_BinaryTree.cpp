@@ -147,10 +147,14 @@ void BinaryTree::Delete(char ch, Node *node){
                         root = newNode;
                     }
                     
-                    node->left->parent = newNode;
-                    node->right->parent = newNode;
-                    newNode->left = node->left;
-                    newNode->right = node->right;
+                    if (node->left->parent){
+                        node->left->parent = newNode;
+                        newNode->left = node->left;
+                    }
+                    if (node->right->parent){
+                        node->right->parent = newNode;
+                        newNode->right = node->right;
+                    }
                 }
             }
         }
